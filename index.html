@@ -8,6 +8,9 @@
    
     <!--Links to css files or font files-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    <link rel="stylesheet" type="text/css" href="css/framework.css">
+    
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
     
     <title>Project One Practice</title>
@@ -17,20 +20,31 @@
  </head>
         
      <body>
-         <div id="container">
+         <div class='row'>
+             <div class='col-12, border'>
                 <header id="header">
                     <h1>Web Ninja</h1>
                 </header>
-                <nav id="nav">
+             </div>
+         </div>
+<!--End header-->
+         
+        <div class='row'>
+             <div class='col-12, border'>
+                 <nav id="nav">
                     <ul class="button-wrap">
                         <button>Schedule</button>
                         <button>CSS</button>
                         <button>HTML</button>
-                        <button>Responsive Design</button>
+                        <button>Responsive       Design</button>
                     </ul>
                  </nav>
-                <div id="middle-wrapper"> 
-                    <div id="middle-wrapper-width">
+             </div>
+         </div>
+<!-- End Menu/Nav-->
+         
+                <div class='row'> 
+                    <div class="col-8, border">
                         <div id="main-content-wrapper">
                             <div class="side-by-side">
                                 <section class="image-content">
@@ -51,9 +65,12 @@
                                 
                                 </h5>
                             
-                            </section>
-                        </div>
+                                </section>
+                            </div>
 <!--End main content wrapper-->
+                        </div>    
+
+                    <div class='col-4, border'>
                         <div id="aside-content-wrapper"> 
                             <aside id="aside-right">
                                 <h3>Latest Work</h3>
@@ -67,27 +84,37 @@
                                 </ul>
                             </aside>
                         </div>
-<!--End aside content wrapper-->
-                    </div>
-<!--End middle wrapper width-->
+ <!--End aside content wrapper-->
+                     </div>    
+<!--       End col-4      -->
                </div>
-<!--End middle-wrapper-->
+<!--    End row    -->
            
 
-            <div id="favorite-sites">
-                <ul>
-                    <li><img src='http://diysolarpanelsv.com/images/instagram-logo-clipart-png-49.png'></li>
-                    <li><img src="https://pbs.twimg.com/profile_images/875087697177567232/Qfy0kRIP_400x400.jpg"></li>
-                    <li><img src="https://crunchbase-production-res.cloudinary.com/image/upload/c_limit,h_600,w_600/v1422480063/h0fvargheeyaybm4oyyt.jpg"></li>
-                </ul>
+            <div id="favorite-sites" class="row">
+                
+            <div class='col-4 , border'>
+                <img src='http://diysolarpanelsv.com/images/instagram-logo-clipart-png-49.png'>
             </div>
-        <footer><h1>Footy</h1></footer>     
-     </div> 
+            <div class='col-4 , border'>
+                    <img src="https://pbs.twimg.com/profile_images/875087697177567232/Qfy0kRIP_400x400.jpg">
+            </div>
+            <div class='col-4 , border'>
+                    <img src="https://crunchbase-production-res.cloudinary.com/image/upload/c_limit,h_600,w_600/v1422480063/h0fvargheeyaybm4oyyt.jpg">
+            </div>
+               
+            </div>
+    <div class ='row'> 
+       <div class='col-12 , border'>
+         <footer><h1>Footy</h1></footer> 
+       </div>  
+    </div>     
+     <div>
+         </div>
 <!--End container-->
        <script src="js/main.js"> </script>
     
      </body>
 
-   <!--pick up boiler video at 12:30-->
 
 </html>
