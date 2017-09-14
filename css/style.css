@@ -8,7 +8,7 @@ Dark Pink: #B20056
 Hot Pink: #FF007A
 */
 
-/*video 5-1 at 3:00*/
+
 
 body {
     background-color: none;
@@ -16,7 +16,6 @@ body {
 }
 
 #header {
-    width:100%;
     background-color: none;
     min-height: 80px;
 }
@@ -30,7 +29,6 @@ body {
 }
 
 #nav {
-    width:100%;
     background-color: #01B203;
     min-height: 80px;
     font-family: "lato", sans-serif;
@@ -39,22 +37,23 @@ body {
 
 #nav > ul {
     Text-align: center;
-    padding: 0;
+    padding: 15px 0 15px 0;
     margin: 0;
-    transform: translatey(50%);
 }
 
 #nav > ul > button {
-    min-width: 120px;
+    min-width: 179px;
     color: #8AFF8B;
     background-color: #FF007A;
     border: none;
     padding: 15px 32px;
     transition: background-color .5s;
+    border-bottom: 2px solid #01B203;
 }
 
 #nav > ul > button:hover {
     background-color: #B20056;
+        
 }
 
 
@@ -68,6 +67,7 @@ body {
 }
 */
 
+/*
 #middle-wrapper-width {
     display: flex;
     font-family: "lato", sans-serif;
@@ -77,20 +77,22 @@ body {
 
 #middle-wrapper {
 }
+*/
 
 .side-by-side{
-    display: flex;
+    
     
 }
 #main-content-wrapper .image-content{
     text-align: center;
-    width: 50%;
-    margin-top: 50px
+    margin:0 auto;
+    margin-top: 50px;
 }
 
 .image-content > img {
     max-width: 200px;
     border-radius: 50%;
+    border: 4px #8AFF8B solid;
 }
     
 .image-content > h4 {
@@ -108,8 +110,7 @@ body {
 }
 
 #main-content-wrapper article{
-    width: 50%;
-    margin-top: 100px
+  
 }
 
 #main-content-wrapper article h2{
@@ -133,8 +134,8 @@ body {
 
 #aside-content-wrapper {
     background-color: white;
-    width: 35%;
-    font-family: 'lato', sans sans-serif
+    font-family: 'lato', sans-serif;
+    margin-top: 50px;
 }
 
 #aside-right{
@@ -173,6 +174,7 @@ body {
     background-image: url(img/web_design_background.jpeg);
     border-top:5px #01B203 solid;
     border-bottom:5px #01B203 solid;
+    text-align: center;
 }
 
 #favorite-sites > ul{
@@ -195,7 +197,10 @@ footer > h1 {
     transform: translatey(50%);
 }
 
-
+.max-width{
+    max-width: 960px;
+    margin: 0 auto;
+}
 
 
 
